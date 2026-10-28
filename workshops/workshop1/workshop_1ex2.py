@@ -37,7 +37,7 @@ def find_max_cons(candidates, A, B, C):
         if utility > u_max:
             u_max = utility
             cons_max = candidate
-    return u_max, cons_max 
+    return u_max, cons_max #keep return outside loop so every candidate is checked
 
 candidates = np.linspace(0, 4, 51)
 A = 1
