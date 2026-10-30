@@ -60,6 +60,19 @@ def argmax(values):
     return imax
 
 
+def hello_world():
+    """
+    Print a greeting.
+
+    Returns
+    -------
+    None
+    """
+    print('Hello, world!')
+
+
+hello_world()
+
 # empty list will return none
 values = [2, 3, -1, 7, 4]
 imax = argmax(values)
@@ -72,4 +85,3 @@ imax = argmax(values)
 # Compare to numpy's argmax, better to use np
 j = np.argmax(values)
 print(f'The maximum is located at {j}')
-
